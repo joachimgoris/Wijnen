@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+	import java.util.ArrayList;
 
 public class WijnApp {
 
@@ -58,11 +58,11 @@ public class WijnApp {
 				goedkoopst = w;
 		}
 		
-		System.out.println("duurste wijn: "+duurst.getLabel());
-		System.out.println("goedkoopste wijn: "+goedkoopst.getLabel());
-		System.out.println("Aantal rode wijnen: "+aantalRoodWijn);
+		System.out.println("**duurste wijn: "+duurst.getLabel());
+		System.out.println("**goedkoopste wijn: "+goedkoopst.getLabel());
+		System.out.println("**Aantal rode wijnen: "+aantalRoodWijn);
 		
-		System.out.println("Past bij gevogelte:");
+		System.out.println("**Suggestie(s) bij gevogelte:");
 		for(Wijn w:arr) {
 			if(w.getServeertip().equals("Gevogelte"))
 				System.out.println(w.getLabel());
